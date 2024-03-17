@@ -1,0 +1,29 @@
+.search{
+    background: linear-gradient(0deg,#c1ecfb,#e1ffea22 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:20px;
+}
+.search input{
+    width:60vh;
+    height:5vh;
+    border-radius: 10%;
+    border-color:rgba(161, 159, 159, 0.516);
+margin-right:10px;
+}
+.search button{
+    width:95px;
+    height:35px;
+    border-radius: 10%;
+    background-color:#4eb7de;
+    border-color: #4eb7de;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+@media screen and (max-width: 768px) {
+    .search{
+        width:140vh;
+    }
+    }
